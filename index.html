@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="nav">
+      <div class="logo">
+        <img src="./images/color.png" alt="" height="80px" width="80px" />
+      </div>
+
+      <div class="navitems">
+        <ul>
+          <li><a href="#aboutpage">Home</a></li>
+          <li><a href="#aboutpage">About us</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="menu" onclick="showSideNav()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- side nav -->
+    <div class="sidenav">
+      <p style="text-align: right" onclick="closeSideNav()">
+        <i class="fa-solid fa-xmark"></i>
+      </p>
+
+      <div class="sidenavitems">
+        <ul>
+          <li class="sidenavitem"><a href="#aboutpage">Home</a></li>
+          <li class="sidenavitem"><a href="#aboutpage">About us</a></li>
+          <li class="sidenavitem"><a href="#categories">Categories</a></li>
+          <li class="sidenavitem"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!--  ABOUT US -->
+
+    <div class="aboutus" id="aboutpage">
+      <div class="img1"></div>
+      <div class="img1content">
+        <h2 id="wel">Welcome</h2>
+        <h2 id="date">SG&nbsp;Spices & Nuts</h2>
+        <h3 id="fav">Your Favourite Nuts Available</h3>
+        <h3 id="ready">Ready to Grab And Go</h3>
+      </div>
+    </div>
+
+    <!--categories  -->
+    <h2 id="categoriesheading">Categories</h2>
+    <h2 id="spices">Spices</h2>
+
+    <div class="categories" id="categories">
+      <div class="categoryitem">
+        <img src="./images/spices1.webp" alt="" height="177px" width="284px" />
+        <h2>Green Cardamom - 250g</h2>
+        <p>₹100</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/blackcard.webp" alt="" height="177px" width="284px" />
+        <h2>Black Cardamom - 500g</h2>
+        <p>₹200</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/whitepep.webp" alt="" height="177px" width="284px" />
+        <h2>White Pepper- 100g</h2>
+        <p>₹65</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/black-pepper-24.jpeg" alt="" height="177px" width="284px" />
+        <h2>Black Pepper - 250g</h2>
+        <p>₹200</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/cloves.webp" alt="" height="177px" width="284px" />
+        <h2>Cloves - 100g</h2>
+        <p>₹130</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/star.webp" alt="" height="177px" width="284px" />
+
+        <h2>Star Anise - 100g</h2>
+        <p>₹110</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/cinnaomon.webp" alt="" height="177px" width="284px" />
+
+        <h2>Cinnamon - 100g</h2>
+        <p>₹45</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/round.webp" alt="" height="177px" width="284px" />
+
+        <h2>Round Cinnamon - 100g</h2>
+        <p>₹80</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/ceylon.webp" alt="" height="177px" width="284px" />
+
+        <h2>Ceylon Cinnamon - 100g</h2>
+        <p>₹160</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/cumin.webp" alt="" height="177px" width="284px" />
+
+        <h2>Cumin seed - 100g</h2>
+        <p>₹70</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/fennel.webp" alt="" height="177px" width="284px" />
+
+        <h2>Fennel seed- 100g</h2>
+        <p>₹35</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/fenugrek.jpeg" alt="" height="177px" width="284px" />
+
+        <h2>Fenugreek seed - 250g</h2>
+        <p>₹30</p>
+      </div>
+    </div>
+
+    <!--  nuts -->
+    <h2 id="spices" style="color: darkred">Nuts</h2>
+
+    <div class="categories" id="categories2">
+      <div class="categoryitem">
+        <img src="./images/badam.webp" alt="" width="284px" height="177px" />
+        <h2 style="color: rgb(12, 12, 12)">Badam - 250g</h2>
+        <p style="color: blue">₹200</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/cashew.webp" alt="" width="284px" height="177px" />
+        <h2 style="color: rgb(18, 18, 18)">Cashew - 250g</h2>
+        <p style="color: blue">₹170</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/peppercashew.jpeg" alt="" width="284px" height="177px" />
+        <h2 style="color: rgb(21, 21, 21)">Pepper Cashew - 200g</h2>
+
+        <p style="color: blue">₹230</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/redchiilicashew.jpeg" alt="" width="284px" height="177px" />
+        <h2 style="color: rgb(23, 23, 23)">Red Chilli Cashew - 200g</h2>
+
+        <p style="color: blue">₹240</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/pista.webp" alt="" width="284px" height="177px" />
+        <h2 style="color: rgb(13, 13, 13)">Salted Pista - 250g</h2>
+
+        <p style="color: blue">₹270</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/groundnut.webp" alt="" width="284px" height="177px" />
+        <h2 style="color: rgb(15, 15, 15)">Groundnut - 500g</h2>
+
+        <p style="color: blue">₹100</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/walnut.webp" alt="" width="284px" height="177px" />
+        <h2 style="color: rgb(21, 21, 22)">Walnut - 250g</h2>
+
+        <p style="color: blue">₹250</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/wallshell.webp" alt="" width="284px" height="177px" />
+        <h2 style="color: rgb(20, 20, 20)">Walnut with shell - 500g</h2>
+
+        <p style="color: blue">₹350</p>
+      </div>
+    </div>
+
+    <!--  Dry Fruits -->
+    <h2 id="spices" style="color: rgb(248, 9, 200)">Dry Fruits</h2>
+
+    <div class="categories" id="categories3">
+      <div class="categoryitem">
+        <img src="./images/redcanberry.webp" alt="" width="284px" height="177px" />
+        <h2 style="color: orangered">Dried Cranberry - 200g</h2>
+
+        <p style="color: rgb(7, 7, 7)">₹200</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/blueberry.webp" alt="" width="284px" height="177px" />
+        <h2 style="color: rgb(12, 12, 12)">Dried Blueberry - 200g</h2>
+
+        <p style="color: orangered">₹350</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/yellowgrapjpeg.jpeg" alt="" width="284px" height="177px" />
+        <h2 style="color: rgb(10, 10, 10)">Yellow Grapes - 250g</h2>
+
+        <p style="color: orangered">₹80</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/fig.webp" alt="" width="284px" height="177px" />
+        <h2 style="color: rgb(4, 4, 4)">Dry Fig - 250g</h2>
+
+        <p style="color: orangered">₹280</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/kiwi.webp" alt="" width="284px" height="177px" />
+        <h2 style="color: rgb(16, 15, 15)">Dry Kiwi - 250g</h2>
+
+        <p style="color: orangered">₹150</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/amla.webp" alt="" width="284px" height="177px" />
+        <h2 style="color: rgb(10, 10, 10)">Amla Candy - 250g</h2>
+
+        <p style="color: orangered">₹100</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/ginger.jpeg" alt="" width="284px" height="177px" />
+        <h2 style="color: rgb(10, 10, 10)">Dry Ginger</h2>
+
+        <p style="color: orangered">₹130</p>
+      </div>
+    </div>
+
+    <!-- tea powder -->
+
+    <h2 id="spices" style="color: rgb(63, 0, 139)">Tea Powder</h2>
+
+    <div class="categories" id="categories4">
+      <div class="categoryitem">
+        <img src="./images/tea1.webp" alt="" width="284px" height="197px" />
+        <h2 style="color: rgb(15, 14, 14)">Connemara Leaf Tea - 500g</h2>
+
+        <p style="color: rgb(236, 12, 12)">₹200</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/tea2.jpeg" alt="" width="284px" height="197px" />
+        <h2 style="color: rgb(7, 7, 7)">AVT Arnagold Tea - 500g</h2>
+
+        <p style="color: rgb(236, 12, 12)">₹175</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/tea3.webp" alt="" width="284px" height="197px" />
+        <h2 style="color: rgb(21, 20, 20)">Pasuparai Tea - 500g</h2>
+
+        <p style="color: rgb(236, 12, 12)">₹500</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/tea4.webp" alt="" width="284px" height="197px" />
+        <h2 style="color: rgb(10, 10, 10)">Connemara Dust Tea - 500g</h2>
+
+        <p style="color: rgb(236, 12, 12)">₹145</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/tea5.webp" alt="" width="284px" height="197px" />
+        <h2 style="color: #0c0c0c">Chinnar Tea - 500g</h2>
+
+        <p style="color: rgb(236, 12, 12)">₹500</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/tea6.webp" alt="" width="284px" height="197px" />
+        <h2 style="color: rgb(12, 12, 12)">Green LeafTea - 100g</h2>
+
+        <p style="color: rgb(236, 12, 12)">₹80</p>
+      </div>
+
+      <div class="categoryitem">
+        <img src="./images/tea7.jfif" alt="" width="284px" height="197px" />
+        <h2 style="color: rgb(4, 4, 4)">Cardamom Elaichi Tea - 250g</h2>
+
+        <p style="color: rgb(236, 12, 12)">₹100</p>
+      </div>
+    </div>
+
+    <!-- contact form -->
+    <h2 id="contacts">Contact us</h2>
+
+    <div class="contact" id="contact">
+      <form action="#" name="forms">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name...." />
+          <input type="email" placeholder="Email Address..." />
+        </div>
+
+        <div class="input-box">
+          <input type="number" placeholder="Phone  Number..." />
+          <input type="text" placeholder="Subject Related..." />
+        </div>
+
+        <textarea
+          name="message"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Messages..."
+        ></textarea>
+
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="social">
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+
+      <p class="copyright">
+        &copy; Gowtham - All Rights Reserved. <br />
+        <br />
+        <a href="#aboutpage"><button class="btn">Back</button></a>
+      </p>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
